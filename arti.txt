@@ -1,1 +1,48 @@
-hello
+structure data cloud sql,bigdata,bigquary,cloud datastore
+bucket is unstructured data it is used to store files
+network:
+communication between network we use external ip
+communication between subnetwork we use internal ip
+swaggrer is brand tool for open api
+helm is package manager of kubernetes
+connect your place to gogle cloud 1.direct peering 2.carrier interconnect 3.vpn
+torentz2.com
+vmware provide different software ade appliances for virtualization
+vmware esx is enterprise level server which providebetter functionality to freeware vmware server
+vmware exsi sever is different from vmware esx server because it doesnot have server console
+dhcp is a protocol that enable a server to assign the ip address to computer from defined ip range
+in https load balancing it used round robbin to send the send the traffic to backend available instance
+
+bucket:
+for one project u can create many bucket
+in bucket u can store file or folder
+cloud bigtable :	
+A Cloud Bigtable instance is mostly just a container for your clusters and nodes
+Production: A standard instance with either 1 or 2 clusters, as well as 3 or more nodes in each cluster. You cannot downgrade a production instance to a development instance
+Development: A low-cost instance for development and testing, with performance limited to the equivalent of a 1-node cluster. There are no monitoring or throughput guarantees; replication is not available; and the SLA does not apply
+ Each cluster belongs to a single Cloud Bigtable instance, and an instance can have up to 2 clusters.
+Each cluster is located in a single zone
+cloud datastore:
+Atomic transactions. Cloud Datastore can execute a set of operations where either all succeed, or none occur.
+ Cloud Datastore uses a mix of indexes and query constraints so your queries scale with the size of your result set, not the size of your data set.
+Encryption at rest. Cloud Datastore automatically encrypts all data before it is written to disk and automatically decrypts the data when read by an authorized user
+If you need a relational database with full SQL support for an online transaction processing (OLTP) system, consider Cloud SQL.
+If you don’t require support for ACID transactions or if your data is not highly structured, consider Cloud Bigtable.
+Cloud Datastore supports querying data by kind or by Google Query Language (GQL)
+
+cloud sql:
+Cloud SQL is perfect for Wordpress sites, e-commerce applications, CRM tools
+Second Generation instances support MySQL 5.6 or 5.7
+Support for secure external connections with the Cloud SQL Proxy or with the SSL/TLS protocol.Support for secure external connections with the Cloud SQL Proxy or with the SSL/TLS protocol.
+
+
+
+
+
+
+
+rest api :
+ All operations and communications between components are REST API calls handled by the API Server,
+Worloads resources are responsible for managing and running your containers on the cluster. 
+DaemonSets, Deployments, HorizontalPodAutoscalers, Ingress, Jobs and ReplicaSets are enabled by default. Other extensions resources can be enabled by setting --runtime-config on apiserver. 
+
